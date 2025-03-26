@@ -1,3 +1,0 @@
-<div>
-    <h1>Hello earth!</h1>
-</div>

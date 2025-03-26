@@ -20,6 +20,6 @@ class indexController extends Controller
             'gender' => $request->gender,
             'bdate' => $request->bdate,
         ]);
-        return $qry ? redirect('/done') : redirect('/err');
+        return $qry ? redirect('/') : redirect('/');
     }
 }
